@@ -21,7 +21,7 @@
     </nav>
  
     <main>
-        <h2>Promoções</h2>
+        <h2 id="h"  >Promoções</h2>
         <div>  
             <ul>
             <h3>Em Alta</h3>
@@ -120,5 +120,26 @@
     </main> 
 
     <footer>All right reserved the <strong>My&PC &#8482;</strong> 2024</footer>
+    <script>
+        var h = window.document.getElementById('h')
+        var sect= window.document.getElementsByClassName('lado-direito')
+        h.addEventListener('mouseenter',entrar)
+        h.addEventListener('mouseout', sair)
+        sect.addEventListener('mouseenter', entrar)
+        sect.addEventListener('mouseout', sai)
+
+        function entrar() {
+            h.style.background= 'orange'
+            sect.style
+            
+        }
+        function sair() {
+            h.style.background= '#fcde1a '
+
+        }
+        function entrando() {
+    
+        }
+    </script>
 </body>
 </html>
